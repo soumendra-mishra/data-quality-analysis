@@ -10,7 +10,7 @@
     - work_experience
     - management_level
 
-- bqDataset: bq_poc
+- datasetName: bq_poc
   dataTable: emp
   reportTable: dq_report
   includeColumns:
