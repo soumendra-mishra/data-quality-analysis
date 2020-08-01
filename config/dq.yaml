@@ -1,0 +1,20 @@
+- datasetName: bq_poc
+  dataTable: job_profile
+  reportTable: dq_report
+  includeColumns:
+    - job_profile_id  
+    - job_category
+    - job_level
+    - ps_group
+    - ps_type
+    - work_experience
+    - management_level
+
+- bqDataset: bq_poc
+  dataTable: emp
+  reportTable: dq_report
+  includeColumns:
+    - EMPNO
+    - ENAME
+    - SAL
+    - COMM
